@@ -21,7 +21,9 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  height: 800px;
+  height: 900px;
+  position: relative;
   text-align: center;
+  top: -60px;
   width: 100vw;
 }
