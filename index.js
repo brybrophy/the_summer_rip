@@ -1,14 +1,14 @@
 'use strict';
 
 (function(){
-  const $lowLeftLeg = $('#lowLeftLeg');
-  const $lowRightLeg = $('#lowRightLeg');
+  var $lowLeftLeg = $('#lowLeftLeg');
+  var $lowRightLeg = $('#lowRightLeg');
   let pantsLeft = 2;
   $('#sunglasses').hide()
 
-  const audio = document.getElementById("audio");
+  var audio = document.getElementById("audio");
 
-  const yello = document.getElementById("yello");
+  var yello = document.getElementById("yello");
 
 
   $lowLeftLeg.click(() => {
@@ -29,7 +29,7 @@
     }
   });
 
-  const pantsOff = function() {
+  var pantsOff = function() {
     $('#sunglasses').fadeIn(1000);
     yello.play();
   }

@@ -42,21 +42,23 @@ h1 {
 }
 
 #lowLeftLeg {
-  z-index: 3;
   background-color: #478ecc;
+  bottom: 172px;
+  display: inline-block;
   height: 130px;
+  position: relative;
+  right: 9px;
   width: 69px;
-  position: absolute;
-  top: 570px;
-  left: 642px;
+  z-index: 3;
 }
 
 #lowRightLeg {
-  z-index: 3;
   background-color: #478ecc;
+  bottom: 172px;
+  display: inline-block;
   height: 130px;
+  left: 7px;
+  position: relative;
   width: 65px;
-  position: absolute;
-  top: 570px;
-  left: 729px;
+  z-index: 3;
 }
