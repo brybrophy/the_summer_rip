@@ -6,7 +6,10 @@
   let pantsLeft = 2;
   $('#sunglasses').hide()
 
+  var audio = document.getElementById("audio");
+
   $lowLeftLeg.click(() => {
+    audio.play();
     $lowLeftLeg.fadeTo(500, 0.01)
     pantsLeft -= 1;
     if (pantsLeft === 0) {
@@ -15,6 +18,7 @@
   });
 
   $lowRightLeg.click(() => {
+    audio.play();
     $lowRightLeg.fadeTo(500, 0.01)
     pantsLeft -= 1;
     if (pantsLeft === 0) {
