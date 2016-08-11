@@ -9,18 +9,18 @@ $(document).ready(function(){
   var yello = document.getElementById("yello");
 
 
-  $lowLeftLeg.click(() => {
+  $lowLeftLeg.click(function() {
     audio.play();
-    $lowLeftLeg.fadeTo(500, 0.01)
+    $lowLeftLeg.animate({ opacity: 0.0 });
     pantsLeft -= 1;
     if (pantsLeft === 0) {
       pantsOff()
     }
   });
 
-  $lowRightLeg.click(() => {
+  $lowRightLeg.click(function() {
     audio.play();
-    $lowRightLeg.fadeTo(500, 0.01)
+    $lowRightLeg.animate({ opacity: 0.0 });
     pantsLeft -= 1;
     if (pantsLeft === 0) {
       pantsOff();
