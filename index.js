@@ -1,6 +1,6 @@
 'use strict';
 
-(function(){
+$(document).ready(function(){
   var $lowLeftLeg = $('#lowLeftLeg');
   var $lowRightLeg = $('#lowRightLeg');
   let pantsLeft = 2;
