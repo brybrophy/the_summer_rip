@@ -25,3 +25,23 @@ h1 {
   text-align: center;
   width: 100vw;
 }
+
+#lowLeftLeg {
+  z-index: 3;
+  background-color: blue;
+  height: 300px;
+  width: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#lowRightLeg {
+  z-index: 3;
+  background-color: blue;
+  height: 300px;
+  width: 100px;
+  position: fixed;
+  top: 500px;
+  left: 500px;
+}
