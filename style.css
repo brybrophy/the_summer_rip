@@ -44,6 +44,7 @@ h1 {
 #lowLeftLeg {
   background-color: #478ecc;
   bottom: 172px;
+  cursor: pointer;
   display: inline-block;
   height: 130px;
   position: relative;
@@ -55,6 +56,7 @@ h1 {
 #lowRightLeg {
   background-color: #478ecc;
   bottom: 172px;
+  cursor: pointer;
   display: inline-block;
   height: 130px;
   left: 7px;
