@@ -34,20 +34,20 @@ h1 {
 
 #lowLeftLeg {
   z-index: 3;
-  background-color: blue;
-  height: 300px;
-  width: 100px;
-  position: fixed;
-  top: 0px;
-  left: 0px;
+  background-color: #478ecc;
+  height: 130px;
+  width: 69px;
+  position: absolute;
+  top: 570px;
+  left: 642px;
 }
 
 #lowRightLeg {
   z-index: 3;
-  background-color: blue;
-  height: 300px;
-  width: 100px;
-  position: fixed;
-  top: 500px;
-  left: 500px;
+  background-color: #478ecc;
+  height: 130px;
+  width: 65px;
+  position: absolute;
+  top: 570px;
+  left: 729px;
 }
