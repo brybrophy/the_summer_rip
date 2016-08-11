@@ -27,7 +27,6 @@
   });
 
   const pantsOff = function() {
-    console.log('done')
-    $('#sunglasses').show();
+    $('#sunglasses').fadeIn(1000);
   }
 })();
