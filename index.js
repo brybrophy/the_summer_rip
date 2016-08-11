@@ -2,7 +2,9 @@ $(document).ready(function(){
   var $lowLeftLeg = $('#lowLeftLeg');
   var $lowRightLeg = $('#lowRightLeg');
   var pantsLeft = 2;
-  $('#sunglasses').hide()
+  $('#sunglasses').hide();
+  $('#speech2').hide();
+
 
   var audio = document.getElementById("audio");
 
@@ -28,7 +30,11 @@ $(document).ready(function(){
   });
 
   var pantsOff = function() {
-    $('#sunglasses').fadeIn(1000);
-    yello.play();
+    $('#sunglasses').delay(1000).fadeIn(1000);
+    $('#speech1').fadeOut(500);
+    $('#speech2').delay(1000).fadeIn(500);
+    setTimeout(function () {
+      yello.play();
+    }, 1000);
   }
 });

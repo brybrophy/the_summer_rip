@@ -9,10 +9,26 @@ h1 {
   top: 60px;
 }
 
+.bubble {
+  bottom: 730px;
+  left: 190px;
+  position: relative;
+}
+
+.speech {
+  color: black;
+  bottom: 874px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: .85rem;
+  left: 190px;
+  position: relative;
+}
+
 .guy {
   background-color: rgba(210, 79, 59, 0.5);
   border-radius: 10px;
   box-shadow: 6px 4px 4px rgba(18, 105, 117, 0.2);
+  height: 680px;
   margin: 0 auto;
   padding: 30px 70px;
   position: relative;
