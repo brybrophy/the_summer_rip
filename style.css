@@ -9,6 +9,13 @@ h1 {
   top: 60px;
 }
 
+.guy {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  width: 280px;
+}
+
 .hero {
   background-image: URL(images/hero.jpg);
   background-size: cover;
