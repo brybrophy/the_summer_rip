@@ -33,4 +33,4 @@ $(document).ready(function(){
     $('#sunglasses').fadeIn(1000);
     yello.play();
   }
-})();
+});
