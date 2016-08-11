@@ -1,0 +1,20 @@
+body {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 6rem;
+  position: relative;
+  top: 60px;
+}
+
+.hero {
+  background-image: URL(images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 800px;
+  text-align: center;
+  width: 100vw;
+}
