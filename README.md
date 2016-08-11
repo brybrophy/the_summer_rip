@@ -8,3 +8,5 @@ The Summer Rip was completed by 5 crazy developers in just 90 minutes. It took f
 Our character is wearing **long pants** on the beach in summer and he's getting very hot.
 
 Help him out by **clicking on his pant legs**.
+
+###[the-summer-rip.surge.sh](the-summer-rip.surge.sh)
