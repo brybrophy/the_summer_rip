@@ -9,4 +9,4 @@ Our character is wearing **long pants** on the beach in summer and he's getting 
 
 Help him out by **clicking on his pant legs**.
 
-###[the-summer-rip.surge.sh](the-summer-rip.surge.sh)
+###http://the-summer-rip.surge.sh
