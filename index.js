@@ -4,6 +4,7 @@
   const $lowLeftLeg = $('#lowLeftLeg');
   const $lowRightLeg = $('#lowRightLeg');
   let pantsLeft = 2;
+  $('#sunglasses').hide()
 
   $lowLeftLeg.click(() => {
     $lowLeftLeg.fadeTo(500, 0.01)
@@ -22,11 +23,7 @@
   });
 
   const pantsOff = function() {
-    $('#sunglasses').fadeIn('fast');
     console.log('done')
-    // sunglasses fade in
-    //
+    $('#sunglasses').show();
   }
-
-
 })();
