@@ -1,9 +1,7 @@
-'use strict';
-
 $(document).ready(function(){
   var $lowLeftLeg = $('#lowLeftLeg');
   var $lowRightLeg = $('#lowRightLeg');
-  let pantsLeft = 2;
+  var pantsLeft = 2;
   $('#sunglasses').hide()
 
   var audio = document.getElementById("audio");
